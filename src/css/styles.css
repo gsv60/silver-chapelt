@@ -21,10 +21,6 @@ time, mark, audio, video {
 
 body{
   background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
-  
-
 }
 
 
@@ -33,9 +29,10 @@ body{
   --background-color: #E5E5E5;
 }
 
-/* Root */
+/* fonts */
 :root{
---nav-font: 16px/22px 'Montserrat Alternates', sans;
+--h2-font: 50px/61px 'Podkova', sans;
+--body-font: 16px/22px 'Montserrat Alternates', sans;
 --font-color: #2B2118;
 }
 
@@ -96,17 +93,38 @@ body{
   }
 
 
+.wrapper{
+  width: 1150px;
+  margin: 0 auto;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header{
     display: flex;
-    align-items: center;
-    padding: 30px 150px 30px 150px;
+    justify-content: center;
+    background-color: var(--background-color);
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: right 0px bottom 0;
+  height: 712px;
 }
 .header-nav{
-    text-transform: uppercase;
-    font: var(--nav-font);
-    margin-left: 139px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font: var(--body-font);
+}
+.logo{
+  margin-right: 139px;
 }
 .logo-img{
+  
   width: 78px;
   height: 78px;
 }
@@ -114,5 +132,34 @@ body{
   text-decoration: none;
   color: var(--font-color);
   margin-right: 36px;
+}
+.header__item:last-child{
+  margin-right: 0;
+}
+
+.about-block__title{
+   font: var(--h2-font);
+   color: var(--font-color);
+}
+.about-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 106px;
+  width: 624px;
+}
+.about-block__des{
+  margin-top: 28px;
+  font: var(--body-font);
+  color: var(--font-color);
+}
+.open-map{
+  display: flex;
+  text-decoration: none;
+  font: var(--body-font);
+  color: var(--font-color);
+  width: 234px;
+  border: none;
+  border-bottom: 1px solid #CCB69B;
+  position: relative;
 }
 
