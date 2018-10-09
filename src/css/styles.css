@@ -314,7 +314,6 @@ body {
 }
 
 .partners-block {
-  width: 660px;
   margin-top: 139px;
 }
 
@@ -329,6 +328,17 @@ body {
 }
 
 .partners-img {
+  filter: grayscale(1);
+  width: 7em;
+  height: 6em;
+  transition-duration: .2s;
+}
+
+.partners-img:hover {
+  filter: grayscale(0);
+}
+
+.partners-link {
   margin: 0 40px 30px 0;
 }
 
