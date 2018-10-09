@@ -1,3 +1,43 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+
+/*vars */
+:root{
+  --background-color: #E5E5E5;
+}
+
+/* fonts */
+:root{
+--h2-font: 50px/61px 'Podkova', sans;
+--body-font: 16px/22px 'Montserrat Alternates', sans;
+--font-color: #2B2118;
+}
+
+
+
 /* montserrat-alternates-regular - latin_cyrillic */
 @font-face {
     font-family: 'Montserrat Alternates';
@@ -51,3 +91,77 @@
          url('../fonts/podkova-v11-latin_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/podkova-v11-latin_cyrillic-600.svg#Podkova') format('svg'); /* Legacy iOS */
   }
+
+
+.wrapper{
+  
+  margin: 0 auto;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: right 0px bottom 0;
+  height: 712px;
+}
+.header-nav{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font: var(--body-font);
+}
+.logo{
+  margin-right: 139px;
+}
+.logo-img{
+  
+  width: 78px;
+  height: 78px;
+}
+.header__item{
+  text-decoration: none;
+  color: var(--font-color);
+  margin-right: 36px;
+}
+.header__item:last-child{
+  margin-right: 0;
+}
+
+.about-block__title{
+   font: var(--h2-font);
+   font-weight: 600;
+   color: var(--font-color);
+}
+.about-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 106px;
+  width: 624px;
+}
+.about-block__des{
+  margin-top: 28px;
+  font: var(--body-font);
+  color: var(--font-color);
+}
+.open-map{
+  display: flex;
+  text-decoration: none;
+  font: var(--body-font);
+  color: var(--font-color);
+  width: 234px;
+  left: 1020px;
+  border: none;
+  border-bottom: 1px solid #CCB69B;
+  position: relative;
+}
+
