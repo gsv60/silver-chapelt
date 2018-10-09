@@ -309,8 +309,27 @@ body {
   background-image: url(../images/partners.png);
   background-repeat: no-repeat;
   position: relative;
-  background-position: right 0px bottom -116px;
-  height: 474px;
+  background-position: right 0px bottom 0px;
+  height: 827px;
+}
+
+.partners-block {
+  width: 660px;
+  margin-top: 139px;
+}
+
+.partners-images {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.partners-images:last-child {
+  margin-top: 30px;
+}
+
+.partners-img {
+  margin: 0 40px 30px 0;
 }
 
 @media (max-width: 1450px) {
