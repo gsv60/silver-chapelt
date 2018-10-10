@@ -23,6 +23,8 @@ body {
   --h2-font: 50px/61px 'Podkova', sans;
   --h3-font: 40px/49px 'Podkova', sans;
   --h4-font: 25px/30px 'Podkova', sans;
+  --footer-title-font: 16px/20px 'Podkova', sans;
+  --footer-links-font: 16px/ 20px 'Montserrat Alternates', sans;
   --link-font: 14px/20px 'Montserrat Alternates', sans;
   --body-font: 16px/22px 'Montserrat Alternates', sans;
   --font-color: #2B2118;
@@ -230,6 +232,7 @@ body {
 
 .social-links-block {
   font: var(--link-font);
+  width: 320px;
 }
 
 .links-block {
@@ -340,6 +343,74 @@ body {
 
 .partners-link {
   margin: 0 40px 30px 0;
+}
+.footer-section{
+  margin-bottom: 28px;
+}
+.footer-block {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles__block-title {
+  font: var(--footer-title-font);
+  font-weight: 600;
+  color: #2B2118;
+  margin-bottom: 27px;
+}
+
+.footer-links {
+  text-decoration: none;
+  font: var(--footer-links-font);
+  color: #2B2118;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid transparent ;
+}
+
+.footer-links:hover {
+  border-color: #CCB69B;
+  
+}
+
+.footer-titles {
+  display: flex;
+}
+
+.footer-titles__block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
+  width: 228px;
+}
+
+.titles__block-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-partners__img {
+  margin-right: 30px;
+  margin-bottom: 16px;
+}
+.footer__bottom-line{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+}
+.bottom-line{
+  font: var(--footer-links-font);
+}
+.madeby{
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid #CCB69B;
+  color: var(--font-color);
+}
+.madeby:hover{
+  border-color: transparent;
 }
 
 @media (max-width: 1450px) {
