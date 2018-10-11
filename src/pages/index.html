@@ -4,8 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <title>Главная</title>
+    <title>Открывая Серебряное ожерелье</title>
     <link rel="stylesheet" href="../css/styles.css" media="all">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#820d17">
+    <meta name="msapplication-TileColor" content="#820d17">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -41,10 +49,10 @@
                     </div>
                 </div> -->
                 <div class="nav-items">
-                <a href="#" class="header__item">
-                    О проекте
-                </a>
-                <a href="#" class="header__item">
+                    <a href="#about" class="header__item">
+                        О проекте
+                    </a>
+                    <!--  <a href="#" class="header__item">
                     Карта мест
                 </a>
                 <a href="#" class="header__item">
@@ -52,14 +60,14 @@
                 </a>
                 <a href="#" class="header__item">
                     Участники
-                </a>
-                <a href="#" class="header__item">
-                    Партнеры
-                </a>
-                <a href="#" class="header__item">
+                </a>-->
+                    <a href="#partners" class="header__item">
+                        Партнеры
+                    </a>
+                    <!--<a href="#" class="header__item">
                     Публикации
-                </a>
-            </div>
+                </a>-->
+                </div>
             </div>
             <div class="about-block">
                 <h2 class="about-block__title">
@@ -68,33 +76,32 @@
                 <div class="about-block__des">
                     Туристический маршрут по городам Северо-Западного региона
                     и совершенно новый бренд в российском туризме.
-                    В краткосрочной перспективе он должен стать аналогом «Золотого кольца».
+                    В краткосрочной перспективе он станет аналогом «Золотого кольца».
                 </div>
                 <a href="https://maps.letim.me/upsya/ozherelye.php" target="_blank" class="about-button">
                     Предложить место
                 </a>
             </div>
-            
+
             <div class="about__bottom-line">
                 <div class="bottom-line__partners">
                     <h5 class="partners-subtitle">
                         При поддержке
                     </h5>
                     <div class="partners-line">
-                        <img class="partners__img-h" target="_blank" src="../images/logo/x2/СПБ-лого.png">
-                        <img class="partners__img-w" target="_blank" src="../images/logo/x2/Сбер-лого.png">
-                        <img class="partners__img-h" target="_blank" src="../images/logo/x2/Петроград Лого.png">
-                        <img class="partners__img-h" target="_blank" src="../images/logo/x2/ожерелье Лого.png">
+                        <img class="partners__img-h" target="_blank" src="../images/logo/x2/spbblogers.png">
+                        <img class="partners__img-w" target="_blank" src="../images/logo/x2/sberbank.png">
+                        <img class="partners__img-h" target="_blank" src="../images/logo/x2/so.png">
                     </div>
                 </div>
                 <div class="about__open-map">
-                    <a href="#" class="text-link">Открыть карту проекта</a>
+                    <!--<a href="#" class="text-link">Открыть карту проекта</a>-->
                 </div>
             </div>
         </div>
     </header>
     <!--About block-->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="wrapper">
             <div class="about">
                 <h3 class="about-title">
@@ -103,18 +110,28 @@
                 <div class="about-articles">
                     <div class="about-articles__block">
                         <h4 class="articles__block-title">
-                            11 регионов. 100 городов.
+                            11 регионов
                         </h4>
                         <div class="articles__block-description">
                             «Серебряное ожерелье» объединяет самые
                             исторически значимые области и города,
-                            включая: <a href="#" class="text-link">Санкт-Петербург</a>, Калининград,
-                            <a href="#" class="text-link">Архангельск</a>, <a href="#" class="text-link">Ленинградскую
-                                область</a>,
-                            Вологду, <a href="#" class="text-link">Карелию</a>, Ненецкий АО, <a href="#" class="text-link">Великий
-                                Новгород</a>, Республику Коми, <a href="#" class="text-link">Псков</a>,
+                            включая:
+                            <!--<a href="#" class="text-link">-->Санкт-Петербург
+                            <!--</a>-->, Калининград,
+                            <!--<a href="#" class="text-link">-->Архангельск
+                            <!--</a>-->,
+                            <!--<a href="#" class="text-link">-->Ленинградскую
+                            область
+                            <!--</a>-->,
+                            Вологду,
+                            <!--<a href="#" class="text-link">-->Карелию
+                            <!--</a>-->, Ненецкий АО,
+                            <!--<a href="#" class="text-link">-->Великий Новгород
+                            <!--</a>-->, Республику Коми,
+                            <!--<a href="#" class="text-link">-->Псков
+                            <!--</a>-->,
                             Мурманскую область.<br><br>
-                            <a href="#" class="text-link">Все города</a>
+                            <!--<a href="#" class="text-link">Все города</a>-->
                         </div>
                     </div>
                     <div class="about-articles__block">
@@ -126,8 +143,12 @@
                             входящих в туристические маршруты «Серебряного ожерелья». Следите за ходом экспедиции в
                             соцеальных сетях.<br><br>
                             <div class="social-links-block">
-                                <a href="https://www.instagram.com/openso2019/" class="link">Instagram</a> <a href="https://www.facebook.com/openso2019" class="link">Facebook</a><!-- <a href="#"
-                                    class="link">Youtube</a>--> <a href="https://vk.com/openso2019" class="link">VK</a><!-- <a href="#" class="link">LiveJournal</a>
+                                <a href="https://www.instagram.com/openso2019/" target="_blank" class="link">Instagram</a>
+                                <a href="https://www.facebook.com/openso2019" target="_blank" class="link">Facebook</a>
+                                <!-- <a href="#"
+                                    class="link">Youtube</a>--> <a
+                                    href="https://vk.com/openso2019" target="_blank" class="link">VK</a>
+                                <!-- <a href="#" class="link">LiveJournal</a>
                                 <a href="#" class="link">Одноклассники</a> <a href="#" class="link">Telegram</a> -->
                             </div>
                         </div>
@@ -141,7 +162,8 @@
                             и маршрутам. Также мы сделаем 3D модели основных достопримечательностей.
                             <br><br>
                             <div class="links-block">
-                                <a href="#" class="link">Посмотреть объекты на карте</a> <a href="#" class="link">Указать
+                                <!--<a href="#" class="link">Посмотреть объекты на карте</a> --><a href="https://maps.letim.me/upsya/ozherelye.php"
+                                    target="_blank" class="link">Указать
                                     достопримечательность</a>
                             </div>
                         </div>
@@ -151,24 +173,24 @@
         </div>
     </section>
     <!--Partners block-->
-    <section class="partners-section">
+    <section class="partners-section" id="partners">
         <div class="footer-wrapper wrapper">
             <div class="partners-block">
                 <h3 class="about-title">
-                    Информационные<br>
-                    партнеры проекта
+                    <!--Информационные<br>
+                    п-->Партнеры проекта
                 </h3>
                 <div class="partners-images">
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/partner_3.svg"></a>
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/sberbank[1].svg"></a>
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/Петроград лого.svg"></a>
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/parner_2.png"></a>
+                    <a href="http://spbblogers.ru/" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/partner_3.svg"></a>
+                    <a href="http://www.sberbank.ru/" target="_blank" class="partners-link"><img class="partners-img"
+                            src="../images/logo/sberbank[1].svg"></a>
+                    <a href="http://s-necklace.ru/" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/ojerejye.svg"></a>
                 </div>
                 <div class="partners-images">
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/partner_10.svg"></a>
-                    <a href="#"  target="_blank"class="partners-link"><img class="partners-img" src="../images/logo/partner_9.svg"></a>
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/partner_7.svg"></a>
-                    <a href="#" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/partner_8.svg"></a>
+                    <a href="https://www.spb.kp.ru/" target="_blank" class="partners-link"><img class="partners-img"
+                            src="../images/logo/kp_color.svg"></a>
+                    <a href="https://petrogradweb.ru/" target="_blank" class="partners-link"><img class="partners-img"
+                            src="../images/logo/Петроград лого.svg"></a>
                 </div>
             </div>
         </div>
@@ -179,16 +201,16 @@
         <div class="footer-wrapper wrapper">
             <div class="footer-block">
                 <a href="/"><img class="footer-logo" src="../images/logo/logo_b.png"></a>
-                
-                    <div class="footer-titles__block">
-                        <div class="titles__block-title">
-                            «Серебряное ожерелье»
-                        </div>
-                        <div class="titles__block-links">
-                            <a href="#" class="footer-links">
-                                О проекте
-                            </a>
-                            <a href="#" class="footer-links">
+
+                <div class="footer-titles__block">
+                    <div class="titles__block-title">
+                        «Серебряное ожерелье»
+                    </div>
+                    <div class="titles__block-links">
+                        <a href="#about" class="footer-links">
+                            О проекте
+                        </a>
+                        <!--<a href="#" class="footer-links">
                                 Карта мест
                             </a>
                             <a href="#" class="footer-links">
@@ -199,35 +221,36 @@
                             </a>
                             <a href="#" class="footer-links">
                                 Статьи о проекте
-                            </a>
-                            <a href="#" class="footer-links">
-                                Партнеры
-                            </a>
-                        </div>
+                            </a>-->
+                        <a href="#partners" class="footer-links">
+                            Партнеры
+                        </a>
                     </div>
-                    <div class="footer-titles__block">
-                        <div class="titles__block-title">
-                            Социальные сети проекта
-                        </div>
-                        <div class="social-links-block">
-                            <a href="https://www.instagram.com/openso2019/" target="_blank" class="link">Instagram</a> <a href="https://www.facebook.com/openso2019" target="_blank" class="link">Facebook</a><!-- <a href="#" target="_blank"
-                                class="link">Youtube</a>--> <a href="https://vk.com/openso2019" target="_blank" class="link">VK</a><!-- <a href="#" target="_blank" class="link">LiveJournal</a>
+                </div>
+                <div class="footer-titles__block">
+                    <div class="titles__block-title">
+                        Социальные сети проекта
+                    </div>
+                    <div class="social-links-block">
+                        <a href="https://www.instagram.com/openso2019/" target="_blank" class="link">Instagram</a> <a
+                            href="https://www.facebook.com/openso2019" target="_blank" class="link">Facebook</a>
+                        <!-- <a href="#" target="_blank"
+                                class="link">Youtube</a>--> <a
+                            href="https://vk.com/openso2019" target="_blank" class="link">VK</a>
+                        <!-- <a href="#" target="_blank" class="link">LiveJournal</a>
                             <a href="#" target="_blank" class="link">Одноклассники</a> <a href="#" target="_blank" class="link">Telegram</a>-->
-                        </div>
                     </div>
-                    <div class="footer-titles__block">
-                        <div class="titles__block-title">
-                            Генеральные партнеры
-                        </div>
-                        <div class="footer-partners">
-                            <img class="footer-partners__img" target="_blank" src="../images/logo/footer/СПБ-Лого.png">
-                            <img class="footer-partners__img" target="_blank" src="../images/logo/footer/Петроград Лого.png">
-                            <img class="footer-partners__img" target="_blank" src="../images/logo/footer/Сбер-Лого.png">
-                            <img class="footer-partners__img" target="_blank" src="../images/logo/footer/ожерелье Лого.png">
-                        </div>
+                </div>
+                <div class="footer-titles__block">
+                    <div class="titles__block-title">
+                        Генеральные партнеры
                     </div>
-                
-                
+                    <div class="footer-partners">
+                        <!--<img class="footer-partners__img" src="../images/logo/footer/СПБ-Лого.png">-->
+                        <img class="footer-partners__img" src="../images/logo/footer/Сбер-Лого.png">
+                        <img class="footer-partners__img" src="../images/logo/footer/ожерелье Лого.png">
+                    </div>
+                </div>
             </div>
             <div class="footer__bottom-line">
                 <div class="bottom-line">
@@ -239,6 +262,20 @@
             </div>
         </div>
     </section>
+    <script>
+        $(document).ready(function () {
+            $(document).on("click", "a", function (event) {
+                //отменяем стандартную обработку нажатия по ссылке
+                event.preventDefault();
+                //забираем идентификатор бока с атрибута href
+                var id = $(this).attr('href'),
+                    //узнаем высоту от начала страницы до блока на который ссылается якорь
+                    top = $(id).offset().top;
+                //анимируем переход на расстояние - top за 'n' мс
+                $('body,html').animate({ scrollTop: top - 40 }, 800);
+            });
+        });
+    </script>
 </body>
 
 </html>
