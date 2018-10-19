@@ -7,7 +7,11 @@
     <title>Открывая Серебряное ожерелье</title>
     <link rel="stylesheet" href="../css/styles.css" media="all">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<<<<<<< HEAD
     <link rel="icon" type="image/png"a sizes="32x32" href="/favicon-32x32.png">
+=======
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+>>>>>>> master
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#820d17">
@@ -50,7 +54,11 @@
                     </div>
                 </div> -->
                 <div class="nav-items">
+<<<<<<< HEAD
                     <a href="#about" class="header__item anchor">
+=======
+                    <a href="#about" class="header__item">
+>>>>>>> master
                         О проекте
                     </a>
                     <!--  <a href="#" class="header__item">
@@ -62,7 +70,11 @@
                 <a href="#" class="header__item">
                     Участники
                 </a>-->
+<<<<<<< HEAD
                     <a href="#partners" class="header__item anchor">
+=======
+                    <a href="#partners" class="header__item">
+>>>>>>> master
                         Партнеры
                     </a>
                     <!--<a href="#" class="header__item">
@@ -175,7 +187,11 @@
     </section>
     <!--Partners block-->
     <section class="partners-section" id="partners">
+<<<<<<< HEAD
         <div class="partners-wrapper wrapper">
+=======
+        <div class="footer-wrapper wrapper">
+>>>>>>> master
             <div class="partners-block">
                 <h3 class="about-title">
                     <!--Информационные<br>
@@ -186,7 +202,12 @@
                     <a href="http://www.sberbank.ru/" target="_blank" class="partners-link"><img class="partners-img"
                             src="../images/logo/sberbank[1].svg"></a>
                     <a href="http://s-necklace.ru/" target="_blank" class="partners-link"><img class="partners-img" src="../images/logo/ojerejye.svg"></a>
+<<<<<<< HEAD
                 
+=======
+                </div>
+                <div class="partners-images">
+>>>>>>> master
                     <a href="https://www.spb.kp.ru/" target="_blank" class="partners-link"><img class="partners-img"
                             src="../images/logo/kp_color.svg"></a>
                     <a href="https://petrogradweb.ru/" target="_blank" class="partners-link"><img class="partners-img"
@@ -207,7 +228,9 @@
                         «Серебряное ожерелье»
                     </div>
                     <div class="titles__block-links">
-                        <a href="#about" class="footer-links anchor">
+
+
+                        <a href="#about" class="footer-links">
                             О проекте
                         </a>
                         <!--<a href="#" class="footer-links">
@@ -222,7 +245,7 @@
                             <a href="#" class="footer-links">
                                 Статьи о проекте
                             </a>-->
-                        <a href="#partners" class="footer-links anchor">
+                        <a href="#partners" class="footer-links">
                             Партнеры
                         </a>
                     </div>
@@ -252,7 +275,6 @@
                     </div>
                 </div>
 
-
             </div>
             <div class="footer__bottom-line">
                 <div class="bottom-line">
@@ -266,18 +288,18 @@
     </section>
     <script>
         $(document).ready(function () {
-            $(document).on("click", "a.anchor", function (event) {
+
+            $(document).on("click", "a", function (event) {
                 //отменяем стандартную обработку нажатия по ссылке
                 event.preventDefault();
                 //забираем идентификатор бока с атрибута href
                 var id = $(this).attr('href'),
-                //узнаем высоту от начала страницы до блока на который ссылается якорь
-                top = $(id).offset().top;
+                    //узнаем высоту от начала страницы до блока на который ссылается якорь
+                    top = $(id).offset().top;
                 //анимируем переход на расстояние - top за 'n' мс
-                $('body,html').animate({ scrollTop: top-40 }, 800);
+                $('body,html').animate({ scrollTop: top - 40 }, 800);
             });
         });
-
     </script>
 </body>
 
