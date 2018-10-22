@@ -183,8 +183,11 @@ body {
 }
 
 .about-button {
+  display: flex;
+    justify-content: center;
   width: 205px;
   padding: 13px;
+  margin-right: 18px;
   font: var(--body-font);
   color: #820D17;
   border: 1px solid #820D17;
@@ -192,6 +195,9 @@ body {
   background-color: var(--background-color);
   text-decoration: none;
   transition-duration: .2s;
+}
+.buttons-line{
+  display: flex;
 }
 
 .about-button:hover {
@@ -361,7 +367,7 @@ body {
   width: 100%;
   overflow: hidden;
   padding-bottom: 28px;
-  background-color: #F1F4F4;
+  background-color: #E5E5E5;
   
 }
 
@@ -635,6 +641,13 @@ body {
   }
   .header-nav {
     justify-content: space-between;
+  }
+  .buttons-line{
+    flex-direction: column;
+  }
+  .about-button{
+    margin-right: 0;
+    margin-top: 18px;
   }
   .nav-items {
     display: flex;
