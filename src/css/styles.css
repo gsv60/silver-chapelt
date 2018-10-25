@@ -98,6 +98,12 @@ body {
   url('../fonts/podkova-v11-latin_cyrillic-600.svg#Podkova') format('svg');
   /* Legacy iOS */
 }
+i{
+  font-style: italic;
+}
+b{
+  font-weight: 600;
+}
 
 .wrapper {
   width: 1150px;
@@ -533,7 +539,7 @@ body {
 
 .card-description {
   font: var(--body-font);
-  margin-bottom: 28px;
+  margin-bottom: 60px;
   color: #2B2118;
 }
 
@@ -576,7 +582,7 @@ body {
 
 /* article */
 .article-wrapper{
-  width: 566px;
+  width: 665px;
 }
 .article-page{
   background-color: #E5E5E5;
@@ -610,10 +616,12 @@ body {
 .article__forward-text{
   display: flex;
   margin-right: 18px;
+  cursor: pointer;
 }
 .article__back-text{
   display: flex;
   margin-left: 18px;
+  cursor: pointer;
 }
 .article__back{
   display: flex;
@@ -647,6 +655,20 @@ body {
   display: flex;
   justify-content: center;
 }
+.card__description-img{
+  width: 560px;
+  margin: 31px 0 13px 0;
+}
+.card__description-title{
+  font: var(--h4-font);
+  margin: 49px 0 32px 0;
+}
+.img__description{
+  font: var(--body-font);
+}
+.description__img-block{
+  display: block;
+}
 
 
 
@@ -665,6 +687,12 @@ body {
   }
   .publications__title-line {
     padding: 0 50px;
+  }
+  .description__img-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -836,7 +864,7 @@ body {
 
 }
 
-@media( max-width: 420px) {
+@media( max-width: 600px) {
   .partners-wrapper {
     width: auto;
   }
@@ -946,6 +974,12 @@ body {
 .article__bottom-img {
   width: 300px;
 }
+.card__description-img {
+  width: 300px;
+}
+.description__img-block{
+  display: block;
+}
 }
 @media (max-width:360px){
   .publications__field {
@@ -968,6 +1002,9 @@ body {
 .publications__card-tline {
   width: 360px;
 }
+.card__description-img {
+  width: 260px;
+}
 }
 
 @media (max-width:320px) {
@@ -988,5 +1025,8 @@ body {
 }
 .publications__button {
   padding: 0 20px;
+}
+.card__description-img {
+  width: 260px;
 }
 }
