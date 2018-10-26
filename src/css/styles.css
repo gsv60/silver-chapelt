@@ -694,15 +694,17 @@ b{
   margin: 250px 0 0 117px;
   font: var(--body-font);
 }
-.about-title{
+.about__title{
   font: var(--h4-font);
   font-weight: 600;
   margin-bottom: 25px;
-  
 }
 .content__right-title{
   font: var(--h3-font);
   font-weight: 600;
+}
+.content__right-hide{
+  display: none;
 }
 
 
@@ -782,6 +784,14 @@ b{
   .publications__field {
     justify-content: center;
 }
+.content__right-hide{
+  display: block;
+  margin-bottom: 24px;
+  width: 200px;
+}
+.about__content-right{
+  display: none;
+}
 }
 
 @media(max-width: 1020px) {
@@ -860,6 +870,7 @@ b{
 .title-wrapper{
   padding: 0;
 }
+
 }
 
 /*.header__item {
@@ -1015,6 +1026,12 @@ b{
 .description__img-block{
   display: block;
 }
+.about-wrapper {
+  width: auto;
+}
+.about-wrapper {
+  padding: 0 50px;
+}
 }
 @media (max-width:360px){
   .publications__field {
@@ -1063,5 +1080,8 @@ b{
 }
 .card__description-img {
   width: 260px;
+}
+.about-wrapper {
+  padding: 0 30px;
 }
 }
