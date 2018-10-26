@@ -703,6 +703,12 @@ b{
 .content__right-hide{
   display: none;
 }
+.footer__section-a {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 28px;
+  background-color: #F1F4F4;
+}
 /* list */
 .list__title{
   font: var(--h3-font);
@@ -793,6 +799,7 @@ b{
 }
 .alphabet__block{
   display: flex;
+  margin-bottom: 100px;
 }
 .alphabet__block-letter{
   font: var(--h4-font);
@@ -810,7 +817,7 @@ b{
   display: flex;
   flex-direction: column;
   width: 272px;
-  margin-right: 18px;
+  margin-right: 38px;
 }
 .alphabet__items-link{
   text-decoration: none;
