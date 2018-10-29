@@ -825,6 +825,36 @@ b{
   color: #2B2118;
   margin-top: 23px;
 }
+/* object */
+.content__map{
+  display: flex;
+  background-color: #F6F8F8;
+}
+.content__map-left{
+  display: flex;
+  flex-direction: column;
+  width: 478px;
+  padding-top: 23px;
+  padding-left: 16px;
+}
+.back__arrow{
+  display: flex;
+  align-items: center;
+  padding-bottom: 27px;
+  border-bottom: 2px solid #ECF0F1;
+  margin-bottom: 10px;
+}
+.back__arrow-text{
+  font: var(--body-font);
+  margin-left: 18px;
+}
+.content__map-img{
+  margin:0 29px 0 29px;
+  width: 417px;
+  height: 417px;
+  border-radius: 4px;
+}
+
 
 
 @media (max-width: 1450px) {
