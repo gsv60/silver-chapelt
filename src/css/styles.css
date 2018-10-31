@@ -247,6 +247,7 @@ b{
 .participants-section{
   background-image: url(../images/partners_block.png);
   background-repeat: no-repeat;
+  background-position: right 600px bottom 0px;
 }
 .participants__left{
    width: 300px;
@@ -333,6 +334,12 @@ b{
 }
 .card__links-link:hover{
   border-color: transparent;
+}
+.participants__partners{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 144px;
 }
 
 
