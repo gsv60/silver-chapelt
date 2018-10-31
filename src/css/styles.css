@@ -30,6 +30,7 @@ body {
   --h4-font: 25px/30px 'Podkova', sans;
   --footer-title-font: 16px/20px 'Podkova', sans;
   --footer-links-font: 16px/ 20px 'Montserrat Alternates', sans;
+  --des-font: 12px/19px 'Montserrat Alternates', sans;
   --link-font: 14px/20px 'Montserrat Alternates', sans;
   --body-font: 16px/22px 'Montserrat Alternates', sans;
   --font-color: #2B2118;
@@ -235,6 +236,87 @@ b{
   margin-top: 63px;
   display: flex;
 }
+
+/* partner-section */
+
+.participants{
+  margin-top: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+.participants-section{
+  background-image: url(../images/partners_block.png);
+  background-repeat: no-repeat;
+}
+.participants__left{
+   width: 300px;
+}
+.participants__left-title{
+  font: var(--h3-font);
+  font-weight: 600;
+ 
+}
+.participants__left-description{
+  font: var(--footer-links-font);
+  margin-top: 18px;
+}
+.participants__right{
+  display: flex;
+  flex-wrap: wrap;
+}
+.participants__right-block{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 87px;
+}
+.participants__right-card{
+  width: 240px;
+  margin: 0 30px 30px 0;
+}
+.participants__pages{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 87px;
+}
+.participants__pages-marker{
+  border-radius: 6px;
+  border: 1px solid #AF9188;
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.participants__pages-marker:hover{
+  background-color: #AF9188;
+}
+.card__img{
+  margin-top: 18px;
+  border-radius: 5px;
+  height: 202px;
+  width: 240px;
+  object-fit: cover;
+}
+.card__name{
+  font: var(--footer-links-font);
+  font-weight: 600;
+  margin-top: 18px;
+}
+.card__links{
+  margin-top: 12px;
+}
+.card__links-link{
+  font: var(--link-font);
+  border-bottom: 1px solid #CCB69B;
+  margin-right: 8px;
+  text-decoration: none;
+  color: #2B2118;
+}
+.card__links-link:hover{
+  border-color: transparent;
+}
+
+
 
 .articles__block-title {
   font: var(--h4-font);
@@ -854,7 +936,16 @@ b{
   height: 417px;
   border-radius: 4px;
 }
-
+.img__des{
+  font: var(--des-font);
+  color: #9E9A96;
+  margin: 10px 0 16px 29px;
+}
+.content__map-title{
+    font: var(--h4-font);
+    margin-bottom: 15px;
+    margin-left: 29px;
+  }
 
 
 @media (max-width: 1450px) {
@@ -879,6 +970,7 @@ b{
     flex-direction: column;
     align-items: center;
   }
+  
 
 }
 
