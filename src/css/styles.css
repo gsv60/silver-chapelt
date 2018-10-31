@@ -292,7 +292,7 @@ b{
   background-color: #AF9188;
 }
 .participants__partners-images{
-
+  width: 620px;
 }
 .card__img{
   margin-top: 18px;
@@ -312,7 +312,7 @@ b{
 .card__links-link{
   font: var(--link-font);
   border-bottom: 1px solid #CCB69B;
-  margin-right: 8px;
+  margin: 0 8px 8px 0;
   text-decoration: none;
   color: #2B2118;
 }
@@ -451,6 +451,7 @@ b{
   width: 7em;
   height: 6em;
   transition-duration: .2s;
+  margin-top: 30px;
 }
 
 .partners-img:hover {
