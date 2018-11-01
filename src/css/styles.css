@@ -291,8 +291,24 @@ b{
 .participants__pages-marker:hover{
   background-color: #AF9188;
 }
-.participants__partners-images{
-  width: 620px;
+.participants__pages-marker.active{
+  background-color: #AF9188;
+}
+.slider {
+  position: relative;
+  height: 754px;
+  width: 100%;
+}
+.slider__page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: .3s;
+}
+.slider__triggers {
+  margin-top: -40px;
+  position: relative;
+  z-index: 101;
 }
 .card__img{
   margin-top: 18px;
