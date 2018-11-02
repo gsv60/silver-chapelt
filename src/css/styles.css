@@ -247,7 +247,7 @@ b{
 .participants-section{
   background-image: url(../images/partners_block.png);
   background-repeat: no-repeat;
-  background-position: right 600px bottom 0px;
+  background-position: left -570px bottom 0px;
 }
 .participants__left{
    width: 300px;
@@ -983,6 +983,9 @@ b{
   .open-map {
     left: 1020px;
   }
+  .participants-section {
+    background-position: left -710px bottom 0px;
+}
 }
 
 @media(max-width: 1180px) {
@@ -1169,6 +1172,25 @@ b{
 @media(max-width: 800px){
   .participants-section {
     background-position: right 50px bottom -48px;
+}
+.participants {
+  display: block;
+}
+.participants__right-block {
+  margin-left: 0;
+}
+.participants__left {
+  width: auto;
+  margin-bottom: 26px;
+}
+.participants__right-card {
+  width: 200px;
+}
+.slider__triggers {
+  margin-top: -76px;
+}
+.card__img {
+  width: 200px;
 }
 }
 @media(max-width: 660px) {
